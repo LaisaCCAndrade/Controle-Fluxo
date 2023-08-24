@@ -1,18 +1,15 @@
-## Getting Started
+# Desafio Controle de Fluxo - Contador
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um programa Java que lida com a contagem de números com base em parâmetros de entrada e demonstra o uso de exceções personalizadas.
 
-## Folder Structure
+## Descrição
 
-The workspace contains two folders by default, where:
+O programa recebe dois números inteiros como entrada e realiza uma contagem, imprimindo os números incrementados. Ele também inclui uma validação que lança uma exceção personalizada `ParametrosInvalidosException` se o primeiro parâmetro for maior ou igual ao segundo parâmetro.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Exceção Personalizada
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+O programa utiliza a classe ParametrosInvalidosException para representar uma exceção personalizada. Essa exceção é lançada quando o primeiro parâmetro é maior ou igual ao segundo parâmetro.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Observações
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Este programa foi desenvolvido como parte de um exercício para praticar conceitos de controle de fluxo e tratamento de exceções. Ele não tem funcionalidade real e é destinado apenas para fins de aprendizado e demonstração.
